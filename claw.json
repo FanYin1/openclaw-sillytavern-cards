@@ -2,7 +2,7 @@
   "name": "sillytavern-cards",
   "version": "1.0.0",
   "description": "完美兼容 SillyTavern 角色卡的 OpenClaw 扩展，支持 V1/V2/V3 规范的导入、导出和格式转换",
-  "author": "your-clawhub-username",
+  "author": "FanYin1",
   "license": "MIT",
   "permissions": [
     "filesystem:read",
@@ -25,10 +25,13 @@
     "gpt-3.5-turbo"
   ],
   "minOpenClawVersion": "2026.2.0",
-  "homepage": "https://github.com/your-username/openclaw-sillytavern-cards",
+  "homepage": "https://github.com/FanYin1/openclaw-sillytavern-cards",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/openclaw-sillytavern-cards.git"
+    "url": "https://github.com/FanYin1/openclaw-sillytavern-cards.git"
+  },
+  "clawhub": {
+    "url": "https://clawhub.ai/FanYin1/charactercard"
   },
   "keywords": [
     "openclaw",

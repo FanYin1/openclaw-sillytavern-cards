@@ -1,8 +1,20 @@
 # 🎭 SillyTavern Character Card Extension for OpenClaw
 
+[![ClawHub](https://img.shields.io/badge/ClawHub-charactercard-blue)](https://clawhub.ai/FanYin1/charactercard)
+[![GitHub](https://img.shields.io/badge/GitHub-openclaw--sillytavern--cards-green)](https://github.com/FanYin1/openclaw-sillytavern-cards)
+[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
+
 完美兼容 SillyTavern 角色卡的 OpenClaw 扩展，支持 V1/V2/V3 规范。
 
 ## 📦 安装
+
+### 从 ClawHub 安装（推荐）
+
+```bash
+openclaw skill install charactercard
+```
+
+### 手动安装
 
 扩展已安装在：
 ```
