@@ -1,0 +1,56 @@
+{
+  "name": "sillytavern-cards",
+  "version": "1.0.0",
+  "description": "完美兼容 SillyTavern 角色卡的 OpenClaw 扩展，支持 V1/V2/V3 规范的导入、导出和格式转换",
+  "author": "your-clawhub-username",
+  "license": "MIT",
+  "permissions": [
+    "filesystem:read",
+    "filesystem:write"
+  ],
+  "entry": "skills/tavern-card/SKILL.md",
+  "tags": [
+    "character-card",
+    "sillytavern",
+    "import-export",
+    "png",
+    "json",
+    "ai-character"
+  ],
+  "models": [
+    "claude-3-opus",
+    "claude-3-sonnet",
+    "claude-3-haiku",
+    "gpt-4",
+    "gpt-3.5-turbo"
+  ],
+  "minOpenClawVersion": "2026.2.0",
+  "homepage": "https://github.com/your-username/openclaw-sillytavern-cards",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/openclaw-sillytavern-cards.git"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-extension",
+    "sillytavern",
+    "character-card",
+    "png-metadata",
+    "chara-card",
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "capabilities": {
+    "import": ["png", "json"],
+    "export": ["png", "json"],
+    "formats": ["v1", "v2", "v3"],
+    "features": [
+      "自动格式检测",
+      "规范版本转换",
+      "数据验证",
+      "世界书支持",
+      "多语言支持"
+    ]
+  }
+}

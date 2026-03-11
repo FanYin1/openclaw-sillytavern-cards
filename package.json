@@ -1,0 +1,27 @@
+{
+  "name": "@openclaw/sillytavern-cards",
+  "version": "1.0.0",
+  "description": "SillyTavern character card import/export extension for OpenClaw",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-extension",
+    "sillytavern",
+    "character-card",
+    "png",
+    "chara"
+  ],
+  "author": "",
+  "license": "MIT",
+  "openclaw": {
+    "type": "extension",
+    "skills": [
+      "skills/tavern-card"
+    ]
+  },
+  "dependencies": {}
+}

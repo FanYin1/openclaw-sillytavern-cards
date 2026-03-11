@@ -1,0 +1,11 @@
+{
+  "id": "sillytavern-cards",
+  "name": "SillyTavern Character Cards",
+  "description": "SillyTavern character card import/export support with V1/V2/V3 spec compatibility",
+  "skills": ["skills/tavern-card"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
